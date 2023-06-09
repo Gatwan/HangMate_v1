@@ -37,20 +37,20 @@ var swiper = new Swiper(".reviews-slider", {
     },
 });
 
-let loadMoreBtn = document.querySelector('.listings .load-more .btn');
-let currentItem = 3;
+//let loadMoreBtn = document.querySelector('.listings .load-more .btn');
+//let currentItem = 3;
 
-loadMoreBtn.addEventListener('click', () => {
-    let boxes = [...document.querySelectorAll('.listings .box-container .box')];
+//loadMoreBtn.addEventListener('click', () => {
+   // let boxes = [...document.querySelectorAll('.listings .box-container .box')];
     //for (var i = currentItem; i < currentItem + 3; i++){
-        for (let i = currentItem; i < currentItem + 3 && i < boxes.length; i++){
-        boxes[i].style.display = 'inline-block';
-    }
-    currentItem += 3;
-    if(currentItem >= boxes.length){
-        loadMoreBtn.style.display = 'none';
-    }
-});
+    //    for (let i = currentItem; i < currentItem + 3 && i < boxes.length; i++){
+   //     boxes[i].style.display = 'inline-block';
+ //   }
+   // currentItem += 3;
+   // if(currentItem >= boxes.length){
+    //    loadMoreBtn.style.display = 'none';
+   // }
+//});
 
 //$(document).ready(function(){
     //$(".content").slice(0, 4).show();
