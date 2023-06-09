@@ -183,7 +183,7 @@
 
     </div>
 
-    <div class="load-more"><span class="btn">load more</span></div>
+   <!-- <div class="load-more"><span class="btn">load more</span></div> -->
     
 </section>
 <!--Listing section ends-->
